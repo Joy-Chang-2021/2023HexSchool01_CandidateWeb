@@ -1,12 +1,14 @@
 
-import { Heading } from '@chakra-ui/react'
+import Header from 'components/header'
+import Main from 'components/main'
+import Footer from 'components/footer'
 
 function App() {
   return (
     <div className="App">
-        <Heading as='h2' size='xl'>
-            Hello
-        </Heading>
+        <Header />
+        <Main />
+        <Footer />
     </div>
   );
 }
