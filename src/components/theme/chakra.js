@@ -21,11 +21,11 @@ const theme = extendTheme({
             600: "#000000"
         },
         primary: {
-            200: "#FBFFE1",
-            300: "#EEFFA9",
-            400: "#D1FA31",
-            500: "#BBE217",
-            600: "#A8C400"
+            100: "#FBFFE1",
+            200: "#EEFFA9",
+            300: "#D1FA31",
+            400: "#BBE217",
+            500: "#A8C400"
         }
     },
     space: {
