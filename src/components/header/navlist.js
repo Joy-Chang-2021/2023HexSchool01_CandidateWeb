@@ -1,16 +1,15 @@
 // pkg
-import { Grid, Flex, Icon, Text } from "@chakra-ui/react"
+import { Flex, Icon, Text } from "@chakra-ui/react"
 // component
 import ButtonM from "components/general/ButtonM"
 import ButtonS from "components/general/ButtonS"
 // image + icon
 import { IconHandCoins } from "assets/icons"
 
-export default function NavList () {
+export default function NavList ({ direction }) {
     return (
-        <Grid w="min-content"
-              templateRows={{ base: "repeat(5, 1fr)", md: "1fr" }}
-              templateColumns={{ base: "1fr", md: "repeat(5, 1fr)" }}
+        <Flex w="min-content"
+              direction={direction}
               gap="sp3">
             <ButtonM>
                 <Flex align="center">
@@ -22,6 +21,6 @@ export default function NavList () {
             <ButtonS mb="sp3">最新活動</ButtonS>
             <ButtonS mb="sp3">政策議題</ButtonS>
             <ButtonS mb="sp3">服務信箱</ButtonS>
-        </Grid>
+        </Flex>
     )
 }

@@ -28,9 +28,9 @@ export default function Burger () {
                         </DrawerHeader>
 
                         <DrawerBody p="0">
-                            <NavList />
+                            <NavList direction="column"/>
                             <Divider my="sp3"/>
-                            <SocialList />
+                            <SocialList direction="column"/>
                         </DrawerBody>
                     </Box>
                 </DrawerContent>

@@ -5,13 +5,14 @@ import Footer from 'components/footer'
 
 function App() {
   return (
-    <div className="App">
-      <Box maxW="1280px" mx="auto" px={{ base: "sp3", md: "sp6" }}>
-          <Header />
+    <Box className="App">
+      <Header />
+      <Box maxW={{ base: "576px", lg: "1280px"}} mx="auto"
+           px={{ base: "sp3", lg: "sp6" }}>
           <Main />
           <Footer />
       </Box>
-    </div>
+    </Box>
   );
 }
 
