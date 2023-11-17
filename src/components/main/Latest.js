@@ -1,5 +1,5 @@
 "use client"
-import { Box, Center, Grid, Image, Icon, Flex, Text } from "@chakra-ui/react"
+import { Box, Image, Icon, Flex, Text } from "@chakra-ui/react"
 import styled from "styled-components"
 // component
 import ButtonM from "components/general/ButtonM"

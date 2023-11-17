@@ -5,7 +5,7 @@ import NavList from "components/header/navlist"
 import SocialList from "components/header/sociallist"
 import Burger from "components/header/burger"
 // image + icon
-import { ImgLogoText } from "assets/images"
+import { LogoBlack } from "assets/images"
 
 export default function Header () {
     return (
@@ -16,7 +16,7 @@ export default function Header () {
             px={{ base: "sp3", md: "sp6" }}
             justify="space-between" align="center" py="16px"
             bgColor="gray.100">
-            <Image src={ImgLogoText} alt="ImgLogoText" />
+            <Image src={LogoBlack} alt="Logo" />
 
             <Box hideBelow="lg">
                 <NavList direction="row"/>

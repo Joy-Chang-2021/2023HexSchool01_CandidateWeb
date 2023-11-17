@@ -4,7 +4,7 @@ import { Box, Image, Divider, useDisclosure, Drawer, DrawerBody, DrawerHeader, D
 import NavList from "components/header/navlist"
 import SocialList from "components/header/sociallist"
 // image + icon
-import { ImgLogoText } from "assets/images"
+import { LogoBlack } from "assets/images"
 import { IconBurger } from "assets/icons"
 
 export default function Burger () {
@@ -24,7 +24,7 @@ export default function Burger () {
                 <DrawerContent>
                     <Box w="100%" h="100%" px="sp3" py="sp4">
                         <DrawerHeader mb="sp4" p="0">
-                            <Image src={ImgLogoText} alt="ImgLogoText" />
+                            <Image src={LogoBlack} alt="Logo" />
                         </DrawerHeader>
 
                         <DrawerBody p="0">

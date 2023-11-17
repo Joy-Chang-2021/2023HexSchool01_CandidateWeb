@@ -62,6 +62,13 @@ const theme = extendTheme({
             fontWeight: "500",
             lineHeight: "1.75"
         }
+    },
+    components: {
+        Text: {
+            baseStyle: {
+                cursor: "default"
+            }
+        }
     }
 })
 
