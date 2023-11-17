@@ -54,7 +54,7 @@ const StyledBarContainer = styled(Grid)`
 `
 
 
-export default function Intro () {
+export default function Candidate () {
     return (
         <Box position="relative"
              h="calc(100vh - 80px)">
