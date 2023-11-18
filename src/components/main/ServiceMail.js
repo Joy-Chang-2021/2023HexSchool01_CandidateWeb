@@ -1,6 +1,5 @@
 "use client"
-import { Box, Flex, Text, Image, Icon, Input, Textarea } from "@chakra-ui/react"
-import styled from "styled-components"
+import { Box, Flex, Text, Image, Input, Textarea } from "@chakra-ui/react"
 // component
 import ButtonL from "components/general/ButtonL"
 // image
@@ -11,7 +10,7 @@ export default function ServiceMail () {
         <Flex direction={{ base: "column", lg: "row" }} my="sp4" gap="sp4">
             {/* 文字說明 */}
             <Box w={{ lg: "43%" }}>
-                <Box color="primary.500">
+                <Box color="primary.500" mb={{ base: "sp3", lg: "sp4" }}>
                     <Text textStyle="title48">服務信箱</Text>
                     <Text textStyle="title20">Service Mail</Text>
                 </Box>
