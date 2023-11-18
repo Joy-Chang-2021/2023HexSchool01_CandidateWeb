@@ -5,7 +5,7 @@ import Footer from 'components/footer'
 
 function App() {
   return (
-    <Box className="App">
+    <Box className="App" overflowX="hidden">
       <Header />
       <Box maxW={{ base: "576px", lg: "1280px"}} mx="auto"
            px={{ base: "sp3", lg: "sp6" }}>
