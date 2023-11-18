@@ -78,7 +78,7 @@ export default function Latest () {
                                 <Flex align="center" justify="space-between">
                                     <Text textStyle="body16" color="primary.500">{event.Date}</Text>
                                     <ButtonM>
-                                        <Flex align="center">
+                                        <Flex align="center" pointerEvents="none">
                                             <Text as="span" fontWeight="900">閱讀更多</Text>
                                             <Icon as={ArrowRight} w="24px" h="24px" ml="sp2"/>                                    
                                         </Flex>

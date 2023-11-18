@@ -64,7 +64,7 @@ export default function Candidate () {
                     <Image src={BlackCat1}/>
                     <Box position="absolute" left="8%" bottom="10%">
                         <ButtonM >
-                            <Flex textStyle="body16" gap="sp2" align="center">
+                            <Flex textStyle="body16" gap="sp2" align="center" pointerEvents="none">
                                 <Text>候選人簡介</Text>
                                 <Icon as={ArrowRight} w="24px" h="24px"/>
                             </Flex>

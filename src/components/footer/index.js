@@ -59,7 +59,7 @@ export default function Footer () {
                 </Flex>
             </Flex>
             <Center mt={{ base: "sp4", lg: "0" }}>
-                <Text fontSize="14px" fontWeight="400" lineHeight="24px">© 2023 黑新星 Supernova Black 版權所有。</Text>
+                <Text textStyle="body14">© 2023 黑新星 Supernova Black 版權所有。</Text>
             </Center>
         </Flex>
     )

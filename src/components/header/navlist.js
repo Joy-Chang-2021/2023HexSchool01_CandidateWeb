@@ -12,7 +12,7 @@ export default function NavList ({ direction }) {
               direction={direction}
               gap="sp3">
             <ButtonM>
-                <Flex align="center">
+                <Flex align="center" pointerEvents="none">
                     <Icon as={IconHandCoins} w="24px" h="24px" mr="sp2"/>
                     <Text as="span" fontWeight="900">小額捐款</Text>
                 </Flex>
