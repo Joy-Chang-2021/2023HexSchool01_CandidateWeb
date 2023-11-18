@@ -1,12 +1,9 @@
 // pkg
-import { Box, Grid, Flex, Icon } from "@chakra-ui/react"
+import { Box, Flex, Icon } from "@chakra-ui/react"
 // component
 import ButtonS from "components/general/ButtonS"
 // image + icon
 import { IconFacebook, IconInstagram, IconYoutube } from "assets/icons"
-
-// TODO: Icon Hover Effect
-// TODO: Text Align Center Style D:
 
 export default function SocialList ({ direction }) {
     return (

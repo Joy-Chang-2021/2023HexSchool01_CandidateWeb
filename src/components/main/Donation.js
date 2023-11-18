@@ -1,6 +1,5 @@
 "use client"
-import { Box, Flex, Text, Image, Icon } from "@chakra-ui/react"
-import styled from "styled-components"
+import { Box, Flex, Text } from "@chakra-ui/react"
 // component
 import DonationCard from "components/general/DonationCard"
 // icon

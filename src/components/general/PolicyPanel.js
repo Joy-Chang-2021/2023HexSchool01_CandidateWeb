@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useState } from "react"
-import { Box, Flex, Center, Text, Image, Icon } from "@chakra-ui/react"
-import styled from "styled-components"
+import { Box, Flex, Center, Text, Icon } from "@chakra-ui/react"
 // icon
 import { PiggyBank, FirstAidKit, Handshake, Park, Storefront, PawPrint, Buildings, BowlFood, Video } from "assets/icons"
 
