@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 2023 THE F2E Mission 1 立委競選官網
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![cover](public/images/cover_readme.png)
 
-## Available Scripts
+[DEMO](https://joy-chang-2021.github.io/2023HexSchool01_CandidateWeb/)
 
-In the project directory, you can run:
+### 專案介紹
+此為六角學院 2023 年 THE F2E 精神時光屋活動，主題一：立委競選官網
+- 活動官網：[https://2023.thef2e.com/](https://2023.thef2e.com/)
+- UI設計個人組：[PinpinChen](https://2023.thef2e.com/users/12061579704054729654)
+- 前端個人組：JoyChang/[Family](https://2023.thef2e.com/users/12061579704044466133)
 
-### `npm start`
+### 專案結構
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```shell
+├── public/           # 靜態資源
+├── src/              # 主要程式碼
+│   ├── assets/       # 被編譯的靜態資源
+│   │   ├── icons/    # 圖符檔
+│   │   ├── images/   # 圖檔
+│   ├── components/   # 共用元件
+│   │   ├── theme/    # 全域樣式設定檔
+│   ├── App.js        # 專案進入點
+│   ├── index.js      # 入口文件
+└── package.json      # 專案資訊、指令、套件及版本號
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 專案工具
+- React
+- Chakra-ui
+- Styled-Components
+- react-scroll
+- gh-pages
 
-### `npm test`
+### 開發指令
+```bash
+# 安裝專案
+git clone https://github.com/Joy-Chang-2021/2023HexSchool01_CandidateWeb.git
+# 安裝相關套件
+npm instal
+# 啟動專案
+npm run start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 收穫
+##### 此次專案嘗試使用、尚待熟練的新設定
+- css `aspect-ratio` 固定元素的長寬比例
+- css `clamp` 控制文字的尺寸範圍
+- svg 顏色動態變化的控制
+##### 未來尚待研究運用的效果
+- Animation of Scroll 頁面滾動時的動畫效果
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

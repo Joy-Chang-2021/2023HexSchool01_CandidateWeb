@@ -10,7 +10,7 @@ export default function SocialList ({ direction }) {
         <Flex w="min-content"
               direction={direction}
               gap="sp3">
-            <ButtonS>
+            <ButtonS >
                 <Flex role="group" align="center">
                     <Icon as={IconFacebook} w="sp4" h="sp4" />
                     {direction === "column" && <Box mt="2px" ml="sp1" lineHeight="28px">Facebook</Box>}

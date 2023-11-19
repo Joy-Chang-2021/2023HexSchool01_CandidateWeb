@@ -1,5 +1,6 @@
 // pkg
 import { Box, Flex, Image } from "@chakra-ui/react"
+import { animateScroll as scroll } from "react-scroll"
 // component
 import NavList from "components/header/navlist"
 import SocialList from "components/header/sociallist"
@@ -16,7 +17,8 @@ export default function Header () {
             px={{ base: "sp3", md: "sp6" }}
             justify="space-between" align="center" py="16px"
             bgColor="gray.100">
-            <Image src={LogoBlack} alt="Logo" />
+            <Image src={LogoBlack} alt="Logo" cursor="pointer"
+                   onClick={() => scroll.scrollToTop()}/>
 
             <Box hideBelow="lg">
                 <NavList direction="row"/>

@@ -1,6 +1,7 @@
 "use client"
 import { Box, Image, Icon, Flex, Text } from "@chakra-ui/react"
 import styled from "styled-components"
+import { v4 as uuid } from 'uuid'
 // component
 import ButtonM from "components/general/ButtonM"
 // icon + image
@@ -14,18 +15,21 @@ const OverflowText = styled(Text)`
     overflow: hidden;
 `
 const LatestEventList = [{
+    Id: uuid(),
     Image: Event_Forum,
     Title: "參與台北寵物論壇，爭取貓咪友善環境",
     Description: "炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的 VIP 休憩空間。",
     Date: "12.26.2023",
     Link: ""
 }, {
+    Id: uuid(),
     Image: Event_Street,
     Title: "掃街模式開啟！帶著你的貓耳，和我一起走！",
     Description: "街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。",
     Date: "12.24.2023",
     Link: ""
 }, {
+    Id: uuid(),
     Image: Event_Model,
     Title: "收容所模特兒大比拼！",
     Description: "今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！",
@@ -40,7 +44,7 @@ export default function Latest () {
               my={{ base: "sp4", lg: "sp6" }}
               gap={{ base: "sp4", lg: "sp6" }}>
             {/* 候選主張 */}
-            <Flex direction={{ base: "column", lg: "row" }}
+            <Flex id="claims" direction={{ base: "column", lg: "row" }}
                   gap={{ base: "sp3", lg: "sp4" }}>
                 <Box w={{ lg: "264px" }} color="primary.500">
                     <Text textStyle="title48">候選主張</Text>
@@ -54,7 +58,7 @@ export default function Latest () {
                 </Flex>
             </Flex>
             {/* 最新活動 */}
-            <Flex direction={{ base: "column", lg: "row" }}
+            <Flex id="latest" direction={{ base: "column", lg: "row" }}
                   gap={{ base: "sp3", lg: "sp4" }}
                   w="100%">
                 <Box w={{ lg: "264px" }} color="primary.500">
@@ -63,7 +67,7 @@ export default function Latest () {
                 </Box>
                 <Flex direction="column" w={{ base: "100%", lg: "calc(100% - 264px - 32px)" }} gap="sp4">
                     {LatestEventList.map(event => (
-                        <Flex direction={{ base: "column", lg: "row" }} w="100%" gap="sp3">
+                        <Flex key={event.Id} direction={{ base: "column", lg: "row" }} w="100%" gap="sp3">
                             <Box pos="relative" w={{ base: "100%", lg: "264px" }} pb="17px">
                                 <Image src={event.Image} w="calc(100% - 17px)"
                                     border="2px solid #EEFFA9"
