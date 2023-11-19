@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/2023HexSchool01_CandidateWeb/static/js/main.4f4dc68a.js",
+    "main.js": "/2023HexSchool01_CandidateWeb/static/js/main.e0fff7ed.js",
     "static/js/787.b0b1bdfc.chunk.js": "/2023HexSchool01_CandidateWeb/static/js/787.b0b1bdfc.chunk.js",
     "static/media/Event_Street.png": "/2023HexSchool01_CandidateWeb/static/media/Event_Street.4c737689eee18fede04b.png",
     "static/media/BlackCat-02.png": "/2023HexSchool01_CandidateWeb/static/media/BlackCat-02.18bada4d5b52de75c67e.png",
@@ -14,6 +14,7 @@
     "static/media/PawPrint.svg": "/2023HexSchool01_CandidateWeb/static/media/PawPrint.bfc5884fb48364677426f2e7d3d80ff8.svg",
     "static/media/PiggyBank.svg": "/2023HexSchool01_CandidateWeb/static/media/PiggyBank.bbf63ff8bd2bbbd9098fe5e34f0ca615.svg",
     "static/media/Storefront.svg": "/2023HexSchool01_CandidateWeb/static/media/Storefront.f6d1150cd47ed2bd82b7d005e69f82d6.svg",
+    "index.html": "/2023HexSchool01_CandidateWeb/index.html",
     "static/media/BowlFood.svg": "/2023HexSchool01_CandidateWeb/static/media/BowlFood.e912189057c53efa31ff0e4e0d04e4c0.svg",
     "static/media/MoonStars.svg": "/2023HexSchool01_CandidateWeb/static/media/MoonStars.fdd1a9e1daba3da93d14bdd06cf08e0a.svg",
     "static/media/Buildings.svg": "/2023HexSchool01_CandidateWeb/static/media/Buildings.12db91054d16c38f063ad20cacb1e8d5.svg",
@@ -28,15 +29,14 @@
     "static/media/MapPin.svg": "/2023HexSchool01_CandidateWeb/static/media/MapPin.2228ada34ba6fe6d2e8a0fdd4242d879.svg",
     "static/media/Planet.svg": "/2023HexSchool01_CandidateWeb/static/media/Planet.8df00f96d4f9a10a31d8632df87f0ed7.svg",
     "static/media/Video.svg": "/2023HexSchool01_CandidateWeb/static/media/Video.38316746379c37bb92fc3c498f1a41a0.svg",
-    "index.html": "/2023HexSchool01_CandidateWeb/index.html",
     "static/media/Burger.svg": "/2023HexSchool01_CandidateWeb/static/media/Burger.1f4c9518bf7728cf3ea38560c473032b.svg",
     "static/media/ArrowRight.svg": "/2023HexSchool01_CandidateWeb/static/media/ArrowRight.e89444a83925c45d58c056fd9f2b9d13.svg",
     "static/media/No1.svg": "/2023HexSchool01_CandidateWeb/static/media/No1.c29655488dcf08ed9ea69e9f4e3628b6.svg",
     "static/media/Election.svg": "/2023HexSchool01_CandidateWeb/static/media/Election.3318ebd079fedb66b1c01b30b9453c42.svg",
-    "main.4f4dc68a.js.map": "/2023HexSchool01_CandidateWeb/static/js/main.4f4dc68a.js.map",
+    "main.e0fff7ed.js.map": "/2023HexSchool01_CandidateWeb/static/js/main.e0fff7ed.js.map",
     "787.b0b1bdfc.chunk.js.map": "/2023HexSchool01_CandidateWeb/static/js/787.b0b1bdfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4f4dc68a.js"
+    "static/js/main.e0fff7ed.js"
   ]
 }

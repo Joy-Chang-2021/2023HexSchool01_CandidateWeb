@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "2024 F2E 黑新星",
+  "name": "黑新星 - 貓貓權益我帶頭 | 2024 F2E 競選官網",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,9 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo240.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "240x240"
     },
     {
       "src": "logo512.png",
